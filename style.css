@@ -90,7 +90,10 @@ nav {
   font-size: 56px;
   font-weight: bold;
 }
-.banner-btn {
+.banner-btn,
+.btn-vision-green,
+.btn-satelite,
+.donate-btn {
   background-color: #006a50;
   color: white;
   font-weight: 600px;
@@ -98,6 +101,7 @@ nav {
   border-radius: 8px;
   font-size: 18px;
   border: none;
+  cursor: pointer;
 }
 .banner-btn:hover {
   background-color: rgb(184, 15, 15);
@@ -115,11 +119,13 @@ main {
 /* vision styles */
 
 .vision-title,
-.recent-news-title {
+.recent-news-title,
+.donate-title {
   margin-bottom: 24px;
 }
 .vision-para,
-.recent-news-para {
+.recent-news-para,
+.donate-para {
   line-height: 24px;
 }
 
@@ -164,8 +170,7 @@ main {
 .btn-vision-blue:hover {
   background-color: red;
 }
-.btn-vision-green,
-.btn-satelite {
+.btn-vision-green {
   padding: 11px 20px;
   color: white;
   background-color: #09a15c;
@@ -173,8 +178,9 @@ main {
   border: none;
   cursor: pointer;
 }
-.btn-vision-green,
-.btn-satelite:hover {
+.btn-vision-green:hover,
+.btn-satelite:hover,
+.donate-btn:hover {
   background-color: red;
 }
 .btn-vision-yellow {
@@ -225,4 +231,40 @@ main {
   margin-top: 14px;
   font-size: 16px;
   line-height: 24px;
+}
+/* Donate section */
+.donate-section {
+  text-align: center;
+  margin: 80px 0px;
+}
+.donate-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  margin: 32px 0px;
+}
+.input-text {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 20px 40px;
+  box-shadow: 0px 4px 4px 0px rgb(217, 211, 211);
+  border: none;
+}
+.btn {
+  padding: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgb(217, 211, 211);
+}
+.two {
+  background-color: #c6e4d6;
+}
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover {
+  background-color: red;
 }
