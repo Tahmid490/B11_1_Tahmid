@@ -110,15 +110,16 @@ nav {
 main {
   margin-top: 80px;
   margin-bottom: 80px;
-  border: 1px solid red;
 }
 
 /* vision styles */
 
-.vision-title {
+.vision-title,
+.recent-news-title {
   margin-bottom: 24px;
 }
-.vision-para {
+.vision-para,
+.recent-news-para {
   line-height: 24px;
 }
 
@@ -163,7 +164,8 @@ main {
 .btn-vision-blue:hover {
   background-color: red;
 }
-.btn-vision-green {
+.btn-vision-green,
+.btn-satelite {
   padding: 11px 20px;
   color: white;
   background-color: #09a15c;
@@ -171,7 +173,8 @@ main {
   border: none;
   cursor: pointer;
 }
-.btn-vision-green:hover {
+.btn-vision-green,
+.btn-satelite:hover {
   background-color: red;
 }
 .btn-vision-yellow {
@@ -184,4 +187,42 @@ main {
 }
 .btn-vision-yellow:hover {
   background-color: red;
+}
+/* Satelite Section */
+.satelite-container1 {
+  padding: 48px;
+  margin: 32px 0px;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px 0px rgb(217, 211, 211);
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.satelite-img {
+  border-radius: 24px;
+}
+.satelite-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.sateline-content {
+  position: relative;
+}
+
+.btn-satelite {
+  margin-top: 32px 0;
+  position: absolute;
+  bottom: 0;
+}
+.date-para {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.satelite-description {
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 24px;
 }
