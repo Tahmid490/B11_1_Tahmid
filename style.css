@@ -59,7 +59,13 @@ nav {
   align-items: center;
   margin: 10px 0px;
 }
-
+.signin_btn {
+  font-size: 18px;
+}
+.signin_btn:hover {
+  background-color: red;
+  color: white;
+}
 /* Banner */
 .banner-section {
   display: flex;
@@ -74,12 +80,6 @@ nav {
   width: 474.03px;
   height: 400px;
 }
-/* .banner-left {
-  display: flex;
-  flex-direction: column;
-
-  gap: 20px;
-} */
 
 .banner-title {
   font-size: 24px;
@@ -97,6 +97,7 @@ nav {
   padding: 17px 24px;
   border-radius: 8px;
   font-size: 18px;
+  border: none;
 }
 .banner-btn:hover {
   background-color: rgb(184, 15, 15);
@@ -104,4 +105,83 @@ nav {
 .banner-head,
 .banner-title {
   margin-bottom: 30px;
+}
+/* Main style */
+main {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: 1px solid red;
+}
+
+/* vision styles */
+
+.vision-title {
+  margin-bottom: 24px;
+}
+.vision-para {
+  line-height: 24px;
+}
+
+.vision-boxes {
+  margin: 32px 0;
+  display: flex;
+  gap: 24px;
+}
+.vision-box1 {
+  border-radius: 16px;
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 32px;
+}
+.vision-box2 {
+  border-radius: 16px;
+  background-color: #c6e4d6;
+  padding: 32px;
+}
+.vision-box3 {
+  border-radius: 16px;
+  background-color: #f7ebcf;
+  padding: 32px;
+}
+.vision-box-title {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.vision-box-para {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.btn-vision-blue {
+  padding: 11px 20px;
+  color: white;
+  background-color: #5490f5;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.btn-vision-blue:hover {
+  background-color: red;
+}
+.btn-vision-green {
+  padding: 11px 20px;
+  color: white;
+  background-color: #09a15c;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.btn-vision-green:hover {
+  background-color: red;
+}
+.btn-vision-yellow {
+  padding: 11px 20px;
+  color: white;
+  background-color: #ffc239;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.btn-vision-yellow:hover {
+  background-color: red;
 }
