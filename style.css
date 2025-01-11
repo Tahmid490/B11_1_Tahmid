@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font family */
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* Helping CSS */
+primary-color-green {
+  color: #006a50;
+}
+.bgc-green {
+  background-color: #c6e4d6;
+}
+.bgc-green-dark {
+  background-color: #006a50;
+}
+.header_title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+}
+
+.btn-all {
+  color: rgba(0, 106, 80, 1);
+  border: 1px solid #006a50;
+  border-radius: 8px;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+/* Banner */
+.banner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  border-radius: 24px;
+  text-align: justify;
+}
+
+.banner-img {
+  width: 474.03px;
+  height: 400px;
+}
+/* .banner-left {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+} */
+
+.banner-title {
+  font-size: 24px;
+  font-weight: 400px;
+  color: rgba(14, 14, 14, 0.5);
+}
+.banner-head {
+  font-size: 56px;
+  font-weight: bold;
+}
+.banner-btn {
+  background-color: #006a50;
+  color: white;
+  font-weight: 600px;
+  padding: 17px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.banner-btn:hover {
+  background-color: rgb(184, 15, 15);
+}
+.banner-head,
+.banner-title {
+  margin-bottom: 30px;
+}
